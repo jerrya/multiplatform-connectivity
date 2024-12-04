@@ -57,7 +57,7 @@ mavenPublishing {
 
     signAllPublications()
 
-    coordinates(group.toString(), "connectivity", version.toString())
+    coordinates(group.toString(), "multiplaform-connectivity", version.toString())
 
     pom {
         name = "Multiplatform Connectivity"
