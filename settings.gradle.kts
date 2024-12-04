@@ -15,4 +15,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "multiplatform-connectivity"
 include(":connectivity")
-include(":example:composeApp")
