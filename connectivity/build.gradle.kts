@@ -9,10 +9,9 @@ plugins {
 }
 
 group = "io.github.jerrya"
-version = "1.0.1"
+version = "1.0.2"
 
 kotlin {
-//    jvm()
     androidTarget {
         publishLibraryVariants("release")
         @OptIn(ExperimentalKotlinGradlePluginApi::class)

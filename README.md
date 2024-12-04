@@ -7,7 +7,7 @@
 
 ## What is it?
 
-Multiplatform-connectivity is a lightweight library for Compose/Kotlin Multiplatform that monitors device connectivity.
+Multiplatform-connectivity is a small, lightweight library for Compose/Kotlin Multiplatform that monitors device connectivity.
 
 ## Features
 
@@ -27,14 +27,14 @@ Multiplatform-connectivity is a lightweight library for Compose/Kotlin Multiplat
 Add the dependency to your libraries.toml file:
 
 ```toml
+[versions]
+multiplaform-connectivity = "1.0.2"
+
 [libraries]
 multiplatform-connectivity = { module = "io.github.jerrya:multiplaform-connectivity", version.ref = "multiplaform-connectivity" }
-
-[versions]
-multiplaform-connectivity = "1.0.0"
 ```
 
-Then sync your project with Gradle and add the dependency:
+Add the dependency to `common` and sync your project with Gradle:
 
 ```groovy
 kotlin {
