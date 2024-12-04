@@ -1,10 +1,19 @@
 # Multiplatform connectivity
 
+[![Maven Central Version](https://img.shields.io/maven-central/v/io.github.jerrya/multiplaform-connectivity)](https://central.sonatype.com/namespace/io.github.jerrya)
+[![Build](https://github.com/jerrya/multiplatform-connectivity/actions/workflows/gradle.yml/badge.svg)](https://github.com/jerrya/multiplatform-connectivity/actions/workflows/gradle.yml)
+[![License](https://img.shields.io/github/license/jerrya/multiplatform-connectivity)](https://www.apache.org/licenses/LICENSE-2.0)
+
+
 ## What is it?
 
 Multiplatform-connectivity is a lightweight library for Compose/Kotlin Multiplatform that monitors device connectivity.
 
-It currently only supports iOS and Android.
+## Features
+
+- Monitor connectivity updates in real time
+- Simplified Online and Offline status changes
+- Supports iOS and Android
 
 ## Platform Support
 
@@ -62,6 +71,8 @@ viewModelScope.launch {
 ```
 
 ## Notes
+
+Roadmap of features: https://github.com/jerrya/multiplatform-connectivity/issues?q=is%3Aissue+is%3Aopen+label%3A%22enhancement%22
 
 ### iOS
 - There is a known issue with iOS Simulators not responding correctly to connectivity changes. I recommend using a physical iPhone device to test connectivity.
