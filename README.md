@@ -16,6 +16,7 @@ connectivity = { module = "io.github.jerrya:multiplaform-connectivity", version.
 ```
 
 ```toml
+[versions]
 multiplaform-connectivity = "1.0.0"
 ```
 
