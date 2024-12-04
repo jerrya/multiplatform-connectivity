@@ -6,21 +6,36 @@ Multiplatform-connectivity is a lightweight library for Compose/Kotlin Multiplat
 
 It currently only supports iOS and Android.
 
+## Platform Support
+
+| Android | iOS | MacOS | Web | Linux | Windows |
+| :-----: | :-: | :---: | :-: | :---: | :-----: |
+|   ✅    | ✅  |  ❌   | ❌  |  ❌   |   ❌    |
+
+
 ## Installation
 
 Add the dependency to your libraries.toml file:
 
 ```toml
 [libraries]
-connectivity = { module = "io.github.jerrya:multiplaform-connectivity", version.ref = "multiplaform-connectivity" }
-```
+multiplatform-connectivity = { module = "io.github.jerrya:multiplaform-connectivity", version.ref = "multiplaform-connectivity" }
 
-```toml
 [versions]
 multiplaform-connectivity = "1.0.0"
 ```
 
-Then sync your project with Gradle.
+Then sync your project with Gradle and add the dependency:
+
+```groovy
+kotlin {
+    sourceSets {
+        commonMain.dependencies {
+          implementation(libs.multiplatform.connectivity)
+        }
+    }
+}
+```
 
 ## Usage
 
